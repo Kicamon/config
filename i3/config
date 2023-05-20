@@ -29,7 +29,7 @@ exec_always exec ~/.config/polybar/launch.sh
 exec_always exec dunst
 
 ## user key
-bindsym $mod+o exec ~/.config/rofi/launcher.sh
+bindsym $mod+o exec rofi -show drun
 bindsym Ctrl+Shift+z exec flameshot gui
 bindsym $mod+Shift+minus move scratchpad
 bindsym $mod+minus scratchpad show
@@ -38,6 +38,7 @@ bindsym $mod+Shift+s sticky toggle
 ## system
 bindsym Shift+F3 exec amixer set Master 5%-
 bindsym Shift+F4 exec amixer set Master 5%+
+bindsym Shift+F5 exec amixer set Master 0
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
@@ -73,8 +74,8 @@ floating_modifier $mod
 tiling_drag modifier titlebar
 
 # start a terminal
-bindsym $mod+Return exec alacritty
-bindsym $mod+Shift+Return exec kitty
+bindsym $mod+Return exec kitty
+bindsym $mod+Shift+Return exec alacritty
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -182,8 +183,20 @@ workspace 5 output HDMI-0
 workspace 6 output HDMI-0
 workspace 7 output DP-4
 workspace 8 output DP-4
-workspace 9 output HDMI-0
-workspace 0 output HDMI-0
+workspace 9 output DP-4
+workspace 0 output DP-4
+
+
+#workspace 1 output DP-4
+#workspace 2 output DP-4
+#workspace 3 output DP-4
+#workspace 4 output DP-4
+#workspace 5 output DP-4
+#workspace 6 output DP-4
+#workspace 7 output DP-4
+#workspace 8 output DP-4
+#workspace 9 output DP-4
+#workspace 0 output DP-4
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
