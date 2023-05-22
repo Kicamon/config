@@ -88,10 +88,10 @@ bindsym $mod+Shift+q kill
 # bindcode $mod+40 exec --no-startup-id i3-dmenu-desktop
 
 # change focus
-bindsym Ctrl+h focus left
-bindsym Ctrl+j focus down
-bindsym Ctrl+k focus up
-bindsym Ctrl+l focus right
+bindsym Ctrl+Shift+h focus left
+bindsym Ctrl+Shift+j focus down
+bindsym Ctrl+Shift+k focus up
+bindsym Ctrl+Shift+l focus right
 
 # alternatively, you can use the cursor keys:
 bindsym $mod+Left focus left
