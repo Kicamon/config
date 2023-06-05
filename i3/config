@@ -24,11 +24,11 @@ exec_always exec xrandr --output HDMI-0 --primary --auto --above DP-4
 
 ## auto start
 exec_always exec xmodmap ~/.Xmodmap
-exec_always exec variety
 exec_always exec picom
 exec_always exec fcitx5
 exec_always exec ~/.config/polybar/launch.sh
 exec_always exec dunst
+exec_always exec ~/.config/wallpaper/wallpaper.sh 0
 
 ## user key
 bindsym $mod+o exec rofi -show drun
@@ -36,6 +36,10 @@ bindsym Ctrl+Shift+z exec flameshot gui
 bindsym $mod+Shift+minus move scratchpad
 bindsym $mod+minus scratchpad show
 bindsym $mod+Shift+s sticky toggle
+bindsym Mod1+c exec ~/.config/MyTools/EnglishLeaning/AddWord.py
+bindsym Mod1+0 exec ~/.config/wallpaper/wallpaper.sh 0
+bindsym Mod1+1 exec ~/.config/wallpaper/wallpaper.sh 1
+bindsym Mod1+2 exec ~/.config/wallpaper/wallpaper.sh 2
 
 ## system
 bindsym Shift+F3 exec amixer set Master 5%-
@@ -77,7 +81,8 @@ tiling_drag modifier titlebar
 
 # start a terminal
 bindsym $mod+Return exec kitty
-bindsym $mod+Shift+Return exec alacritty
+bindsym $mod+Shift+Return exec alacritty --class=Alacritty
+for_window [class="^Alacritty$"] floating enable,move position center
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -132,6 +137,7 @@ bindsym $mod+Shift+space floating toggle
 
 # change focus between tiling / floating windows
 bindsym $mod+space focus mode_toggle
+bindsym $mod+c move position center
 
 # focus the parent container
 bindsym $mod+a focus parent
@@ -176,7 +182,10 @@ bindsym $mod+Shift+8 move container to workspace number $ws8
 bindsym $mod+Shift+9 move container to workspace number $ws9
 bindsym $mod+Shift+0 move container to workspace number $ws10
 
-# 工作区位置
+# switch to workspace last time
+bindsym $mod+Tab workspace back_and_forth
+
+# workspaces palace
 workspace 1 output HDMI-0
 workspace 2 output HDMI-0
 workspace 3 output HDMI-0
@@ -186,7 +195,7 @@ workspace 6 output HDMI-0
 workspace 7 output DP-4
 workspace 8 output DP-4
 workspace 9 output DP-4
-workspace 0 output DP-4
+workspace 10 output DP-4
 
 
 #workspace 1 output DP-4
@@ -198,7 +207,7 @@ workspace 0 output DP-4
 #workspace 7 output DP-4
 #workspace 8 output DP-4
 #workspace 9 output DP-4
-#workspace 0 output DP-4
+#workspace 10 output DP-4
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
@@ -241,8 +250,8 @@ bindsym $mod+r mode "resize"
 #}
 
 #new_window none
-default_border pixel 5
-gaps inner 5
+default_border pixel 0
+gaps inner 10
 
 # float window size
 floating_minimum_size -1 x -1
@@ -255,3 +264,7 @@ client.unfocused         $mauve    $base $text  $rosewater $mauve
 client.urgent            $peach    $base $peach $overlay0  $peach
 client.placeholder       $overlay0 $base $text  $overlay0  $overlay0
 client.background        $base
+
+# auto plase
+assign [class="^qq$"]7
+assign [class="^discord$"]8
