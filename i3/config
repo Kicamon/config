@@ -23,12 +23,13 @@ exec_always exec xrandr --output HDMI-0 --primary --auto --above DP-4
 #xrandr --output "输出口" --auto --same-al DP-4 --auto
 
 ## auto start
-exec_always exec xmodmap ~/.Xmodmap
+exec_always exec xmodmap ~/.xmodmap
 exec_always exec picom
 exec_always exec fcitx5
 exec_always exec ~/.config/polybar/launch.sh
 exec_always exec dunst
 exec_always exec ~/.config/wallpaper/wallpaper.sh 0
+exec_always sleep 1; exec nutstore
 
 ## user key
 bindsym $mod+o exec rofi -show drun
@@ -36,10 +37,11 @@ bindsym Ctrl+Shift+z exec flameshot gui
 bindsym $mod+Shift+minus move scratchpad
 bindsym $mod+minus scratchpad show
 bindsym $mod+Shift+s sticky toggle
+bindsym $mod+x exec xmodmap ~/.xmodmap
 bindsym Mod1+c exec ~/.config/MyTools/EnglishLeaning/AddWord.py
-bindsym Mod1+0 exec ~/.config/wallpaper/wallpaper.sh 0
-bindsym Mod1+1 exec ~/.config/wallpaper/wallpaper.sh 1
-bindsym Mod1+2 exec ~/.config/wallpaper/wallpaper.sh 2
+bindsym Mod1+Up exec ~/.config/wallpaper/wallpaper.sh 0
+bindsym Mod1+Left exec ~/.config/wallpaper/wallpaper.sh 1
+bindsym Mod1+Right exec ~/.config/wallpaper/wallpaper.sh 2
 
 ## system
 bindsym Shift+F3 exec amixer set Master 5%-
@@ -82,7 +84,6 @@ tiling_drag modifier titlebar
 # start a terminal
 bindsym $mod+Return exec kitty
 bindsym $mod+Shift+Return exec alacritty --class=Alacritty
-for_window [class="^Alacritty$"] floating enable,move position center
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -268,3 +269,9 @@ client.background        $base
 # auto plase
 assign [class="^qq$"]7
 assign [class="^discord$"]8
+assign [class="^telegram-destktop$"]9
+
+# windows
+for_window [class="^Alacritty$"] floating enable
+for_window [class="^obs$"] floating enable
+for_window [class="\*"] move position center

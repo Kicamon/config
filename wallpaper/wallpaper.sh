@@ -1,5 +1,5 @@
 #! /bin/bash
-set -x
+#set -x
 
 Path=~/.config/wallpaper/
 files=($(ls ~/.config/wallpaper/ | grep -E 'png|jpg'))
