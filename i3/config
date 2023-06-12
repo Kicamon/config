@@ -23,13 +23,14 @@ exec_always exec xrandr --output HDMI-0 --primary --auto --above DP-4
 #xrandr --output "输出口" --auto --same-al DP-4 --auto
 
 ## auto start
-exec_always exec xmodmap ~/.xmodmap
 exec_always exec picom
-exec_always exec fcitx5
+exec_always exec xbacklight -set 100
 exec_always exec ~/.config/polybar/launch.sh
-exec_always exec dunst
 exec_always exec ~/.config/wallpaper/wallpaper.sh 0
 exec_always sleep 1; exec nutstore
+exec_always sleep 1; exec fcitx5
+exec_always sleep 1.5; exec xmodmap ~/.xmodmap
+exec_always sleep 2; exec dunst
 
 ## user key
 bindsym $mod+o exec rofi -show drun
@@ -47,6 +48,8 @@ bindsym Mod1+Right exec ~/.config/wallpaper/wallpaper.sh 2
 bindsym Shift+F3 exec amixer set Master 5%-
 bindsym Shift+F4 exec amixer set Master 5%+
 bindsym Shift+F5 exec amixer set Master 0
+bindsym $mod+Up exec xbacklight -inc 5
+bindsym $mod+Down exec xbacklight -dec 5
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
@@ -83,7 +86,7 @@ tiling_drag modifier titlebar
 
 # start a terminal
 bindsym $mod+Return exec kitty
-bindsym $mod+Shift+Return exec alacritty --class=Alacritty
+bindsym $mod+Shift+Return exec alacritty
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -102,10 +105,10 @@ bindsym Ctrl+Shift+k focus up
 bindsym Ctrl+Shift+l focus right
 
 # alternatively, you can use the cursor keys:
-bindsym $mod+Left focus left
-bindsym $mod+Down focus down
-bindsym $mod+Up focus up
-bindsym $mod+Right focus right
+#bindsym $mod+Left focus left
+#bindsym $mod+Down focus down
+#bindsym $mod+Up focus up
+#bindsym $mod+Right focus right
 
 # move focused window
 bindsym $mod+Shift+h move left
@@ -114,10 +117,10 @@ bindsym $mod+Shift+k move up
 bindsym $mod+Shift+l move right
 
 # alternatively, you can use the cursor keys:
-bindsym $mod+Shift+Left move left
-bindsym $mod+Shift+Down move down
-bindsym $mod+Shift+Up move up
-bindsym $mod+Shift+Right move right
+#bindsym $mod+Shift+Left move left
+#bindsym $mod+Shift+Down move down
+#bindsym $mod+Shift+Up move up
+#bindsym $mod+Shift+Right move right
 
 # split in horizontal orientation
 bindsym $mod+h split h
@@ -148,15 +151,15 @@ bindsym $mod+a focus parent
 
 # Define names for default workspaces for which we configure key bindings later on.
 # We use variables to avoid repeating the names in multiple places.
-set $ws1 "1"
-set $ws2 "2"
-set $ws3 "3"
-set $ws4 "4"
-set $ws5 "5"
-set $ws6 "6"
-set $ws7 "7"
-set $ws8 "8"
-set $ws9 "9"
+set $ws1  "1"
+set $ws2  "2"
+set $ws3  "3"
+set $ws4  "4"
+set $ws5  "5"
+set $ws6  "6"
+set $ws7  "7"
+set $ws8  "8"
+set $ws9  "9"
 set $ws10 "10"
 
 # switch to workspace
@@ -187,15 +190,15 @@ bindsym $mod+Shift+0 move container to workspace number $ws10
 bindsym $mod+Tab workspace back_and_forth
 
 # workspaces palace
-workspace 1 output HDMI-0
-workspace 2 output HDMI-0
-workspace 3 output HDMI-0
-workspace 4 output HDMI-0
-workspace 5 output HDMI-0
-workspace 6 output HDMI-0
-workspace 7 output DP-4
-workspace 8 output DP-4
-workspace 9 output DP-4
+workspace 1  output HDMI-0
+workspace 2  output HDMI-0
+workspace 3  output HDMI-0
+workspace 4  output HDMI-0
+workspace 5  output HDMI-0
+workspace 6  output HDMI-0
+workspace 7  output DP-4
+workspace 8  output DP-4
+workspace 9  output DP-4
 workspace 10 output DP-4
 
 
