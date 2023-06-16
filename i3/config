@@ -43,6 +43,10 @@ bindsym Mod1+c exec ~/.config/MyTools/EnglishLeaning/AddWord.py
 bindsym Mod1+Up exec ~/.config/wallpaper/wallpaper.sh 0
 bindsym Mod1+Left exec ~/.config/wallpaper/wallpaper.sh 1
 bindsym Mod1+Right exec ~/.config/wallpaper/wallpaper.sh 2
+bindsym Shift+Left exec mpc prev
+bindsym Shift+Right exec mpc next
+bindsym Shift+Up exec mpc play
+bindsym Shift+Down exec mpc pause
 
 ## system
 bindsym Shift+F3 exec amixer set Master 5%-
