@@ -307,3 +307,295 @@ Jun 16 23:47 : exception: Failed to open "pcm" (alsa); Failed to open ALSA devic
 ALSA lib pcm_dmix.c:999:(snd_pcm_dmix_open) unable to open slave
 Jun 16 23:47 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
 Jun 16 23:47 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+Jun 17 00:55 : player: played "云海 - 千亿.mp3"
+Jun 17 14:36 : player: played "云海 - 千亿.mp3"
+Jun 17 14:41 : player: played "Season - ZARD.mp3"
+Jun 17 14:44 : player: played "負けないで (不要认输) - ZARD.mp3"
+Jun 17 14:48 : player: played "梦夏 - 邵英杰、罗桐.mp3"
+Jun 17 14:51 : player: played "「露を吸う群」 - 増田俊郎.mp3"
+Jun 17 14:54 : player: played "冬の底 - 増田俊郎.mp3"
+Jun 17 14:56 : player: played "伝承 - 増田俊郎.mp3"
+Jun 17 15:01 : player: played "運命のルーレット廻して - ZARD.mp3"
+Jun 17 15:04 : player: played "兰亭序 - 周杰伦.mp3"
+Jun 17 15:04 : exception: Not playing
+Jun 17 15:04 : exception: Not playing
+Jun 17 15:04 : exception: Not playing
+Jun 17 15:04 : exception: Not playing
+Jun 17 15:04 : exception: Not playing
+Jun 17 15:04 : exception: Not playing
+Jun 17 15:04 : exception: Not playing
+Jun 17 15:08 : player: played "不思议ね… - ZARD.mp3"
+Jun 17 15:12 : player: played "哀と愁 - 増田俊郎.mp3"
+Jun 17 15:16 : player: played "搖れる想い - ZARD.mp3"
+Jun 17 15:19 : player: played "運命のルーレット廻して (TV On-air Ver.) - ZARD.mp3"
+Jun 17 15:21 : player: played "「籠のなか」 - 増田俊郎.mp3"
+Jun 17 17:47 : player: played "「緑の座」 - 増田俊郎.mp3"
+Jun 17 17:49 : player: played "「春と嘯く」 - 増田俊郎.mp3"
+Jun 17 17:52 : player: played "月光 - 増田俊郎.mp3"
+Jun 17 17:56 : player: played "Colors - Nicola Sedda.mp3"
+Jun 17 18:01 : player: played "Don't you see! - ZARD.mp3"
+Jun 17 18:07 : player: played "遠い日のNostalgia - ZARD.mp3"
+Jun 17 18:10 : player: played "Stars - Les Misérables - International Cast.mp3"
+Jun 17 18:14 : player: played "Red & Black - Les Misérables Original London Cast.mp3"
+Jun 17 18:18 : player: played "One Day More - Les Misérables Cast.mp3"
+Jun 17 18:23 : player: played "Star of the County Down - Rosheen.mp3"
+Jun 17 18:26 : player: played "Front Desk Girl - ZARD.mp3"
+ALSA lib pcm_dmix.c:999:(snd_pcm_dmix_open) unable to open slave
+Jun 17 18:30 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+Jun 17 18:30 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:999:(snd_pcm_dmix_open) unable to open slave
+Jun 17 18:30 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+Jun 17 18:30 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:999:(snd_pcm_dmix_open) unable to open slave
+Jun 17 18:30 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+Jun 17 18:30 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:999:(snd_pcm_dmix_open) unable to open slave
+Jun 17 18:30 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+Jun 17 18:30 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:999:(snd_pcm_dmix_open) unable to open slave
+Jun 17 18:30 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+Jun 17 18:30 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:999:(snd_pcm_dmix_open) unable to open slave
+Jun 17 18:30 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+Jun 17 18:30 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:999:(snd_pcm_dmix_open) unable to open slave
+Jun 17 18:30 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+Jun 17 18:30 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:999:(snd_pcm_dmix_open) unable to open slave
+Jun 17 18:31 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+Jun 17 18:31 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:999:(snd_pcm_dmix_open) unable to open slave
+Jun 17 18:31 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+Jun 17 18:31 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:999:(snd_pcm_dmix_open) unable to open slave
+Jun 17 18:31 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+Jun 17 18:31 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:999:(snd_pcm_dmix_open) unable to open slave
+Jun 17 18:31 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+Jun 17 18:31 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:999:(snd_pcm_dmix_open) unable to open slave
+Jun 17 18:31 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+Jun 17 18:31 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:999:(snd_pcm_dmix_open) unable to open slave
+Jun 17 18:31 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+Jun 17 18:31 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:999:(snd_pcm_dmix_open) unable to open slave
+Jun 17 18:31 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+Jun 17 18:31 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:999:(snd_pcm_dmix_open) unable to open slave
+Jun 17 18:31 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+Jun 17 18:31 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:999:(snd_pcm_dmix_open) unable to open slave
+Jun 17 18:31 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+Jun 17 18:31 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:999:(snd_pcm_dmix_open) unable to open slave
+Jun 17 18:31 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+Jun 17 18:31 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:999:(snd_pcm_dmix_open) unable to open slave
+Jun 17 18:31 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+Jun 17 18:31 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:999:(snd_pcm_dmix_open) unable to open slave
+Jun 17 18:31 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+Jun 17 18:31 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:999:(snd_pcm_dmix_open) unable to open slave
+Jun 17 18:31 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+Jun 17 18:31 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:999:(snd_pcm_dmix_open) unable to open slave
+Jun 17 18:31 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+Jun 17 18:31 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:999:(snd_pcm_dmix_open) unable to open slave
+Jun 17 18:31 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+Jun 17 18:31 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:999:(snd_pcm_dmix_open) unable to open slave
+Jun 17 18:31 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+Jun 17 18:31 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:999:(snd_pcm_dmix_open) unable to open slave
+Jun 17 18:31 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+Jun 17 18:31 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:999:(snd_pcm_dmix_open) unable to open slave
+Jun 17 18:31 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+Jun 17 18:31 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:999:(snd_pcm_dmix_open) unable to open slave
+Jun 17 18:31 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+Jun 17 18:31 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:999:(snd_pcm_dmix_open) unable to open slave
+Jun 17 18:31 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+Jun 17 18:31 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:999:(snd_pcm_dmix_open) unable to open slave
+Jun 17 18:31 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+Jun 17 18:31 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:999:(snd_pcm_dmix_open) unable to open slave
+Jun 17 18:31 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+Jun 17 18:31 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:999:(snd_pcm_dmix_open) unable to open slave
+Jun 17 18:31 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+Jun 17 18:31 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:999:(snd_pcm_dmix_open) unable to open slave
+Jun 17 18:31 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+Jun 17 18:31 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:999:(snd_pcm_dmix_open) unable to open slave
+Jun 17 18:31 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+Jun 17 18:31 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:999:(snd_pcm_dmix_open) unable to open slave
+Jun 17 18:31 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+Jun 17 18:31 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:999:(snd_pcm_dmix_open) unable to open slave
+Jun 17 18:31 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+Jun 17 18:31 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:999:(snd_pcm_dmix_open) unable to open slave
+Jun 17 18:31 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+Jun 17 18:31 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:999:(snd_pcm_dmix_open) unable to open slave
+Jun 17 18:31 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+Jun 17 18:31 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:999:(snd_pcm_dmix_open) unable to open slave
+Jun 17 18:31 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+Jun 17 18:31 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:999:(snd_pcm_dmix_open) unable to open slave
+Jun 17 18:31 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+Jun 17 18:31 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:999:(snd_pcm_dmix_open) unable to open slave
+Jun 17 18:31 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+Jun 17 18:31 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:999:(snd_pcm_dmix_open) unable to open slave
+Jun 17 18:31 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+Jun 17 18:31 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:999:(snd_pcm_dmix_open) unable to open slave
+Jun 17 18:32 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+Jun 17 18:32 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:999:(snd_pcm_dmix_open) unable to open slave
+Jun 17 18:32 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+Jun 17 18:32 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:999:(snd_pcm_dmix_open) unable to open slave
+Jun 17 18:32 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+Jun 17 18:32 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:999:(snd_pcm_dmix_open) unable to open slave
+Jun 17 18:32 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+Jun 17 18:32 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:999:(snd_pcm_dmix_open) unable to open slave
+Jun 17 18:32 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+Jun 17 18:32 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:999:(snd_pcm_dmix_open) unable to open slave
+Jun 17 18:32 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+Jun 17 18:32 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:999:(snd_pcm_dmix_open) unable to open slave
+Jun 17 18:32 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+Jun 17 18:32 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:999:(snd_pcm_dmix_open) unable to open slave
+Jun 17 18:32 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+Jun 17 18:32 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:999:(snd_pcm_dmix_open) unable to open slave
+Jun 17 18:32 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+Jun 17 18:32 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:999:(snd_pcm_dmix_open) unable to open slave
+Jun 17 18:32 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+Jun 17 18:32 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:999:(snd_pcm_dmix_open) unable to open slave
+Jun 17 18:32 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+Jun 17 18:32 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:999:(snd_pcm_dmix_open) unable to open slave
+Jun 17 18:32 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+Jun 17 18:32 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:999:(snd_pcm_dmix_open) unable to open slave
+Jun 17 18:32 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+Jun 17 18:32 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:999:(snd_pcm_dmix_open) unable to open slave
+Jun 17 18:32 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+Jun 17 18:32 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:999:(snd_pcm_dmix_open) unable to open slave
+Jun 17 18:32 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+Jun 17 18:32 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:999:(snd_pcm_dmix_open) unable to open slave
+Jun 17 18:32 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+Jun 17 18:32 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:999:(snd_pcm_dmix_open) unable to open slave
+Jun 17 18:32 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+Jun 17 18:32 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:999:(snd_pcm_dmix_open) unable to open slave
+Jun 17 18:32 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+Jun 17 18:32 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:999:(snd_pcm_dmix_open) unable to open slave
+Jun 17 18:32 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+Jun 17 18:32 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:999:(snd_pcm_dmix_open) unable to open slave
+Jun 17 18:32 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+Jun 17 18:32 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:999:(snd_pcm_dmix_open) unable to open slave
+Jun 17 18:32 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+Jun 17 18:32 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:999:(snd_pcm_dmix_open) unable to open slave
+Jun 17 18:32 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+Jun 17 18:32 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:999:(snd_pcm_dmix_open) unable to open slave
+Jun 17 18:32 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+Jun 17 18:32 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:999:(snd_pcm_dmix_open) unable to open slave
+Jun 17 18:32 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+Jun 17 18:32 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:999:(snd_pcm_dmix_open) unable to open slave
+Jun 17 18:33 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+Jun 17 18:33 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:999:(snd_pcm_dmix_open) unable to open slave
+Jun 17 18:33 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+Jun 17 18:33 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:999:(snd_pcm_dmix_open) unable to open slave
+Jun 17 18:33 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+Jun 17 18:33 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:999:(snd_pcm_dmix_open) unable to open slave
+Jun 17 18:33 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+Jun 17 18:33 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:999:(snd_pcm_dmix_open) unable to open slave
+Jun 17 18:33 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+Jun 17 18:33 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:999:(snd_pcm_dmix_open) unable to open slave
+Jun 17 18:33 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+Jun 17 18:33 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:999:(snd_pcm_dmix_open) unable to open slave
+Jun 17 18:33 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+Jun 17 18:33 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:999:(snd_pcm_dmix_open) unable to open slave
+Jun 17 18:33 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+Jun 17 18:33 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:999:(snd_pcm_dmix_open) unable to open slave
+Jun 17 18:33 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+Jun 17 18:33 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:999:(snd_pcm_dmix_open) unable to open slave
+Jun 17 18:33 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+Jun 17 18:33 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:999:(snd_pcm_dmix_open) unable to open slave
+Jun 17 18:33 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+Jun 17 18:33 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:999:(snd_pcm_dmix_open) unable to open slave
+Jun 17 18:33 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+Jun 17 18:33 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:999:(snd_pcm_dmix_open) unable to open slave
+Jun 17 18:34 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+Jun 17 18:34 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:999:(snd_pcm_dmix_open) unable to open slave
+Jun 17 18:34 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+Jun 17 18:34 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:999:(snd_pcm_dmix_open) unable to open slave
+Jun 17 18:34 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+Jun 17 18:34 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:999:(snd_pcm_dmix_open) unable to open slave
+Jun 17 19:14 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+Jun 17 19:14 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:999:(snd_pcm_dmix_open) unable to open slave
+Jun 17 19:14 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+Jun 17 19:14 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:999:(snd_pcm_dmix_open) unable to open slave
+Jun 17 19:14 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+Jun 17 19:14 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:999:(snd_pcm_dmix_open) unable to open slave
+Jun 17 19:14 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+Jun 17 19:14 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:999:(snd_pcm_dmix_open) unable to open slave
+Jun 17 19:14 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+Jun 17 19:14 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:999:(snd_pcm_dmix_open) unable to open slave
+Jun 17 19:14 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+Jun 17 19:14 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+ALSA lib pcm_dmix.c:999:(snd_pcm_dmix_open) unable to open slave
+Jun 17 19:14 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+Jun 17 19:14 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+Jun 17 19:14 : player: played "Oh My Love - ZARD.mp3"
