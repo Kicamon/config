@@ -2,7 +2,7 @@
 #set -x
 
 Path=~/.config/wallpaper/
-files=($(ls ~/.config/wallpaper/ | grep -E 'png|jpg'))
+files=($(ls ${Path} | grep -E 'png|jpg'))
 len=${#files[*]}
 index=`head --lines=1 ~/.config/wallpaper/index.txt`
 
@@ -18,7 +18,8 @@ then
 		index=`expr ${len} - 1`
 	fi
 	feh --bg-fill ${Path}${files[$index]}
-else
+elif [ $1 == 2 ]
+then
 	index=`expr ${index} + 1`
 	if [ ${index} -ge ${len} ]
 	then

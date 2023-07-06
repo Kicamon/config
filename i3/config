@@ -17,7 +17,10 @@ set $mod Mod4
 font pango:monospace 8
 
 # 副屏
-exec_always exec xrandr --output HDMI-0 --primary --auto --above DP-4
+set $monirot1 HDMI-0
+set $monirot2 DP-4
+#exec_always exec xrandr --output HDMI-0 --primary --auto --above DP-4
+exec_always exec xrandr --output $monirot1 --primary --auto --right-of $monirot2
 #exec_always exec xrandr --output HDMI-0 --auto --above DP-4 --primary
 # 投影
 #xrandr --output "输出口" --auto --same-al DP-4 --auto
@@ -27,7 +30,7 @@ exec_always exec picom
 exec_always exec xbacklight -set 100
 exec_always exec ~/.config/polybar/launch.sh
 exec_always exec ~/.config/wallpaper/wallpaper.sh 0
-exec_always sleep 1; exec nutstore
+exec_always sleep 1; exec --no-startup-id nutstore
 exec_always sleep 1; exec fcitx5
 exec_always sleep 1.5; exec xmodmap ~/.xmodmap
 exec_always sleep 2; exec dunst
@@ -194,16 +197,16 @@ bindsym $mod+Shift+0 move container to workspace number $ws10
 bindsym $mod+Tab workspace back_and_forth
 
 # workspaces palace
-workspace 1  output HDMI-0
-workspace 2  output HDMI-0
-workspace 3  output HDMI-0
-workspace 4  output HDMI-0
-workspace 5  output HDMI-0
-workspace 6  output HDMI-0
-workspace 7  output DP-4
-workspace 8  output DP-4
-workspace 9  output DP-4
-workspace 10 output DP-4
+workspace 1  output $monirot1
+workspace 2  output $monirot1
+workspace 3  output $monirot1
+workspace 4  output $monirot1
+workspace 5  output $monirot1
+workspace 6  output $monirot1
+workspace 7  output $monirot2
+workspace 8  output $monirot2
+workspace 9  output $monirot2
+workspace 10 output $monirot2
 
 
 #workspace 1 output DP-4
@@ -279,6 +282,8 @@ assign [class="^discord$"]8
 assign [class="^telegram-destktop$"]9
 
 # windows
-for_window [class="^Alacritty$"] floating enable
-for_window [class="^obs$"] floating enable
-for_window [class="\*"] move position center
+for_window [class="^Alacritty$"] floating enable move position center
+for_window [class="^obs$"] floating enable move position center
+for_window [class="^lx-music-desktop$"]move position center
+for_window [class="^qq$"]move position center
+for_window [class="^CodeForces Contest Helper v2$"]move position center

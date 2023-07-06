@@ -25,6 +25,8 @@ configuration {
     delay: 10;
     action: "kb-cancel";
   }
+
+  icon-theme: "papirus-icon-theme/Papirus-Dark";
 }
 
 * {

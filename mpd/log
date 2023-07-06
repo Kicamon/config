@@ -599,3 +599,4 @@ ALSA lib pcm_dmix.c:999:(snd_pcm_dmix_open) unable to open slave
 Jun 17 19:14 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
 Jun 17 19:14 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
 Jun 17 19:14 : player: played "Oh My Love - ZARD.mp3"
+Jun 21 00:20 : player: played "Oh My Love - ZARD.mp3"
