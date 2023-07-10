@@ -26,18 +26,19 @@ exec_always exec xrandr --output $monirot1 --primary --auto --right-of $monirot2
 #xrandr --output "输出口" --auto --same-al DP-4 --auto
 
 ## auto start
-exec_always exec picom
-exec_always exec xbacklight -set 100
-exec_always exec ~/.config/polybar/launch.sh
-exec_always exec ~/.config/wallpaper/wallpaper.sh 0
-exec_always sleep 1; exec --no-startup-id nutstore
-exec_always sleep 1; exec fcitx5
-exec_always sleep 1.5; exec xmodmap ~/.xmodmap
-exec_always sleep 2; exec dunst
+exec_always picom
+exec_always xbacklight -set 100
+exec_always ~/.config/polybar/launch.sh
+exec_always ~/.config/wallpaper/wallpaper.sh 0
+exec_always sleep 1; nutstore
+exec_always sleep 1; fcitx5
+exec_always sleep 1.5; xmodmap ~/.xmodmap
+exec_always sleep 2; dunst
+exec_always sleep 2; mpd
 
 ## user key
 bindsym $mod+o exec rofi -show drun
-bindsym Ctrl+Shift+z exec flameshot gui
+bindsym Ctrl+Shift+z exec --no-startup-id flameshot gui
 bindsym $mod+Shift+minus move scratchpad
 bindsym $mod+minus scratchpad show
 bindsym $mod+Shift+s sticky toggle
@@ -48,8 +49,7 @@ bindsym Mod1+Left exec ~/.config/wallpaper/wallpaper.sh 1
 bindsym Mod1+Right exec ~/.config/wallpaper/wallpaper.sh 2
 bindsym Shift+Left exec mpc prev
 bindsym Shift+Right exec mpc next
-bindsym Shift+Up exec mpc play
-bindsym Shift+Down exec mpc pause
+bindsym $mod+l exec --no-startup-id ~/.config/i3/lock.sh
 
 ## system
 bindsym Shift+F3 exec amixer set Master 5%-

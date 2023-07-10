@@ -600,3 +600,69 @@ Jun 17 19:14 : exception: Failed to open "pcm" (alsa); Failed to open ALSA devic
 Jun 17 19:14 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
 Jun 17 19:14 : player: played "Oh My Love - ZARD.mp3"
 Jun 21 00:20 : player: played "Oh My Love - ZARD.mp3"
+Jul 08 19:09 : player: played "Ready Go! - ZARD.mp3"
+Jul 08 19:11 : update: added /木漏れ日に想う - 末廣健一郎.mp3
+Jul 08 19:11 : update: added /星の願い - 末廣健一郎.mp3
+Jul 08 19:11 : update: added /静寂ノ旅路 - 末廣健一郎.mp3
+Jul 08 19:11 : update: added /Greensleeves - José Carreras.mp3
+Jul 08 19:11 : update: added /千与千寻 - 久石让.mp3
+Jul 08 19:11 : update: added /天空の城ラピュタ - 久石让.mp3
+Jul 08 19:11 : update: added /太阳照常升起 - 久石让.mp3
+Jul 08 19:11 : update: added /Arrietty's Song - Cécile Corbel.mp3
+Jul 08 19:11 : update: added /衛星カフェテラス - 上海爱莉丝幻乐团.mp3
+Jul 08 19:11 : update: added /杜王町Radio - 菅野祐悟.mp3
+Jul 08 19:11 : update: added /Summer - 久石让.mp3
+Jul 08 19:11 : update: added /Sincerely - TRUE.mp3
+Jul 08 19:11 : update: added /only my railgun - 花たん.mp3
+Jul 08 19:11 : update: added /君が夢を連れてきた - 茅野愛衣、中津真莉子、高森奈津美.mp3
+Jul 08 19:11 : update: added /Wishing - 水瀬いのり.mp3
+Jul 08 19:11 : update: added /梦回还 - 呦猫UNEKO.mp3
+Jul 08 19:11 : update: added /此彼绘卷 - 林和夜.mp3
+Jul 08 19:11 : update: added /雪年轮 - 林和夜.mp3
+Jul 08 19:11 : update: added /相聚万年树 - 林和夜.mp3
+Jul 08 19:11 : update: added /围城 - Kinoko蘑菇、Mr.mo.mp3
+Jul 08 19:11 : update: added /众生 - Gary Chan.mp3
+Jul 08 19:12 : player: played "Today is another day - ZARD.mp3"
+Jul 08 19:14 : player: played "突然 - ZARD.mp3"
+Jul 08 19:17 : player: played "Oh My Love - ZARD.mp3"
+Jul 08 19:28 : player: played "Star of the County Down - Rosheen.mp3"
+Jul 08 19:33 : player: played "Star of the County Down - Rosheen.mp3"
+Jul 08 19:34 : exception: Failed to open audio output
+Jul 08 19:35 : player: played "Front Desk Girl - ZARD.mp3"
+Jul 08 19:43 : player: played "負けないで (不要认输) - ZARD.mp3"
+Jul 08 19:46 : player: played "梦夏 - 邵英杰、罗桐.mp3"
+Jul 08 19:49 : player: played "「露を吸う群」 - 増田俊郎.mp3"
+Jul 08 19:50 : player: played "伝承 - 増田俊郎.mp3"
+Jul 08 19:55 : player: played "運命のルーレット廻して - ZARD.mp3"
+Jul 08 20:00 : player: played "DAN DAN 心魅かれて - ZARD.mp3"
+Jul 08 20:00 : player: played "不思议ね… - ZARD.mp3"
+Jul 08 20:04 : player: played "運命のルーレット廻して (TV On-air Ver.) - ZARD.mp3"
+Jul 08 20:06 : player: played "「籠のなか」 - 増田俊郎.mp3"
+Jul 08 20:08 : player: played "「緑の座」 - 増田俊郎.mp3"
+ALSA lib pcm_dmix.c:999:(snd_pcm_dmix_open) unable to open slave
+Jul 08 20:08 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+Jul 08 20:08 : exception: Failed to open "pcm" (alsa); Failed to open ALSA device "default": Device or resource busy
+Jul 08 20:08 : player: problems opening audio device while playing "「緑の座」 - 増田俊郎.mp3"
+Jul 08 20:08 : player: played "「緑の座」 - 増田俊郎.mp3"
+Jul 08 20:09 : player: played "「春と嘯く」 - 増田俊郎.mp3"
+Jul 08 20:09 : player: played "「春と嘯く」 - 増田俊郎.mp3"
+Jul 08 20:12 : player: played "月光 - 増田俊郎.mp3"
+Jul 08 21:41 : player: played "Colors - Nicola Sedda.mp3"
+Jul 08 21:47 : player: played "Colors - Nicola Sedda.mp3"
+Jul 08 21:58 : player: played "Colors - Nicola Sedda.mp3"
+Jul 08 22:04 : player: played "Colors - Nicola Sedda.mp3"
+Jul 08 22:18 : player: played "Colors - Nicola Sedda.mp3"
+Jul 08 23:45 : player: played "Colors - Nicola Sedda.mp3"
+Jul 09 00:23 : player: played "Colors - Nicola Sedda.mp3"
+Jul 09 23:31 : player: played "Colors - Nicola Sedda.mp3"
+Jul 10 18:03 : player: played "Colors - Nicola Sedda.mp3"
+Jul 10 18:07 : player: played "Colors - Nicola Sedda.mp3"
+Jul 11 01:49 : update: updating /Arrietty's Song - Cécile Corbel.mp3
+Jul 11 01:49 : update: added /第一次爱的人 - 王心凌.mp3
+Jul 11 01:54 : player: played "第一次爱的人 - 王心凌.mp3"
+Jul 11 01:54 : exception: Not playing
+Jul 11 01:54 : exception: Not playing
+Jul 11 01:55 : exception: Not playing
+Jul 11 01:55 : exception: Not playing
+Jul 11 01:55 : exception: Not playing
+Jul 11 01:55 : player: played "兰亭序 - 周杰伦.mp3"

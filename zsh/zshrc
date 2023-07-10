@@ -138,7 +138,8 @@ alias c=clear
 alias s=neofetch
 alias sudo='sudo -E'
 alias qgit='zsh ~/.config/zsh/qgit.sh'
+alias pwd='pwd | xclip -sel c && pwd'
 
 # my set
-source ~/.config/zsh/fzf.zsh
+#source ~/.config/zsh/fzf.zsh
 source ~/.config/zsh/welcome.sh

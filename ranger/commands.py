@@ -139,25 +139,17 @@ class extract(Command):
     """:extract <paths>
     Extract archives
     """
+
     def execute(self):
         import os
-        fail=[]
+        fail = []
         for i in self.fm.thistab.get_selection():
-            ExtractProg='7z x'
-            if i.path.endswith('.zip'):
-                ExtractProg='unzip'
-            elif i.path.endswith('.tar.gz'):
-                ExtractProg='tar xvf'
-            elif i.path.endswith('.tar.xz'):
-                ExtractProg='tar xJvf'
-            elif i.path.endswith('.tar.bz2'):
-                ExtractProg='tar xjvf'
-            elif i.path.endswith('.rar'):
-                ExtractProg='rar x'
+            ExtractProg = 'unar'
             if os.system('{0} "{1}"'.format(ExtractProg, i.path)):
                 fail.append(i.path)
         if len(fail) > 0:
-            self.fm.notify("Fail to extract: {0}".format(' '.join(fail)), duration=10, bad=True)
+            self.fm.notify("Fail to extract: {0}".format(
+                ' '.join(fail)), duration=10, bad=True)
         self.fm.redraw_window()
 
 
@@ -181,12 +173,12 @@ class compress(Command):
 
         descr = "compressing files in: " + os.path.basename(parts[1])
         obj = CommandLoader(args=['apack'] + au_flags +
-                            [os.path.relpath(f.path, cwd.path) for f in marked_files], descr=descr, read=True)
+                            [os.path.relpath(f.path, cwd.path) for f in marked_files], descr=descr)
 
         obj.signal_bind('after', refresh)
         self.fm.loader.add(obj)
 
-    def tab(self, tabnum):
+    def tab(self):
         """ Complete with current folder name """
 
         extension = ['.zip', '.tar.gz', '.rar', '.7z']
